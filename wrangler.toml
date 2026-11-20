@@ -1,0 +1,8 @@
+name = "chat-archive"
+main = "worker.js"
+compatibility_date = "2025-01-01"
+workers_dev = true
+
+[[r2_buckets]]
+binding = "BUCKET"
+bucket_name = "kurochat"   # <- change to the exact name of your R2 bucket

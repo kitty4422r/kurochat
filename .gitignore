@@ -1,0 +1,6 @@
+*.json
+*_Files/
+*.enc
+.dev.vars
+.wrangler/
+node_modules/
